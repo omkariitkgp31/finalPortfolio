@@ -27,7 +27,7 @@ export default function Projects() {
     <section className="min-h-screen bg-[#121212] py-24 px-8 md:px-24 relative z-20">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Selected Work</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Project Work</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
         </div>
 
