@@ -1,11 +1,11 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Ethereal UI",
-      category: "Design System",
-      description: "A comprehensive glass-morphism component library built with Tailwind CSS and Framer Motion.",
-      image: "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=2070&auto=format&fit=crop",
-      link: "#",
+      title: "MERN E-Commerce Platform",
+      category: "Full-Stack E-Commerce",
+      description: "Full-stack online store with JWT auth, product CRUD, cart/order management, and admin dashboard, deployed on Netlify.",
+      image: "/projects/MERN-ecom.png",
+      link: "https://your-mern-ecommerce-link.netlify.app", // User can update this link
     },
     {
       title: "Whiteboard",
@@ -13,13 +13,6 @@ export default function Projects() {
       description: "A React-based collaborative whiteboard web app with drawing tools including pen, shapes, arrows, text, eraser, undo/redo, and multi-color stroke options — deployed via Firebase.",
       image: "/projects/whitebrd.png",
       link: "https://thewhiteboard-5c16c.web.app/",
-    },
-    {
-      title: "Synapse Architecture",
-      category: "E-Commerce",
-      description: "Headless storefront featuring 3D product configurators and AI-driven recommendations.",
-      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
-      link: "#",
     },
     {
       title: "Personal Portfolio",
