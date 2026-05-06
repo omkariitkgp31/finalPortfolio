@@ -37,7 +37,7 @@ export default function Footer() {
                 <ExternalLink size={18} />
                 <span>Portfolio</span>
               </a>
-              <a href="/projects/Omkar_cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
+              <a href="/projects/OmkarCV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
                 <Download size={18} />
                 <span>Resume</span>
               </a>
