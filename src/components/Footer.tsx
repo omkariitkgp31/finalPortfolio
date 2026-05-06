@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Mail, Phone, ExternalLink, ArrowRight } from 'lucide-react';
+import { Mail, Phone, ExternalLink, ArrowRight, Download } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -36,6 +36,10 @@ export default function Footer() {
               <a href="https://coffeeland-9828e.web.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
                 <ExternalLink size={18} />
                 <span>Portfolio</span>
+              </a>
+              <a href="/projects/Omkar_cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm">
+                <Download size={18} />
+                <span>Resume</span>
               </a>
             </div>
           </div>
