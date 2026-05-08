@@ -5,7 +5,7 @@ export default function Projects() {
       category: "Full-Stack E-Commerce",
       description: "Full-stack online store with JWT auth, product CRUD, cart/order management, and admin dashboard, deployed on Netlify.",
       image: "/projects/MERN-ecom.png",
-      link: "https://your-mern-ecommerce-link.netlify.app", // User can update this link
+      link: "https://mern-ecom-backend-0o6io.netlify.app/", // User can update this link
     },
     {
       title: "Whiteboard",
@@ -59,10 +59,10 @@ export default function Projects() {
                 <p className="text-gray-400 font-light leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 {/* Arrow indicator */}
                 <div className="mt-6 flex items-center text-sm font-medium text-white/70 group-hover:text-white transition-colors">
-                  View Project 
+                  View Project
                   <svg className="w-4 h-4 ml-2 transform transition-transform duration-300 group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
