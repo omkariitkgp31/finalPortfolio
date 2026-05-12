@@ -21,6 +21,13 @@ export default function Projects() {
       image: "/projects/portfolioDemo.png",
       link: "https://coffeeland-9828e.web.app/",
     },
+    {
+      title: "Synthetic Bull Trading",
+      category: "Backend / Distributed Systems",
+      description: "Distributed Go backend handling real-time order matching, LOB via Red-Black Trees, and a GBM market simulator for live candlestick rendering over WebSockets.",
+      image: "/projects/webTrading.png",
+      link: "https://growify-ai.netlify.app/"
+    },
   ];
 
   return (
